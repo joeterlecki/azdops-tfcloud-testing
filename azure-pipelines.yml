@@ -19,6 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 - script: |
-    ./terraform-enterprise-push.sh
+    ./terraform-enterprise-push.sh ./test-config/ Devinitly/azdops-testing
   displayName: "Run Terraform API Stuff"
 
