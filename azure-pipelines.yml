@@ -21,4 +21,6 @@ steps:
 - script: |
     ./terraform-enterprise-push.sh ./test-config/ Devinitly/azdops-testing
   displayName: "Run Terraform API Stuff"
+  env:
+    TF_CLOUD_TOKEN: $(TF_CLOUD_TOKEN)
 
