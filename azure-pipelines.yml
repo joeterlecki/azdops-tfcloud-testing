@@ -16,5 +16,9 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    echo $(TF_CLOUD_TOKEN)
   displayName: 'Run a multi-line script'
+
+- script: |
+    ./terraform-enterprise-push.sh
+  displayName: "Run Terraform API Stuff"
+
