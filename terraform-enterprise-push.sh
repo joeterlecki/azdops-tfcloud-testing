@@ -30,6 +30,7 @@ WORKSPACE_ID=($(curl \
 
 echo $WORKSPACE_ID
 
+
 # 4. Create a New Configuration Version
 
 echo '{"data":{"type":"configuration-versions"}}' > ./create_config_version.json
